@@ -2,6 +2,13 @@ import React from "react";
 import {Player} from "@lottiefiles/react-lottie-player";
 import animation from "./../assets/23165-isometric-laptop.json";
 import {Slide} from "react-awesome-reveal";
+import {
+  FaEnvelope,
+  FaGithub,
+  FaLinkedin,
+  FaMailBulk,
+  FaMailchimp,
+} from "react-icons/fa";
 
 const Home = () => {
   return (
@@ -19,11 +26,30 @@ const Home = () => {
           <Slide direction="up">
             <span className="text-2xl font-normal text-blue-900">
               <br />
-              I'm a Mern Stack Developer. I love building websites and bringing
-              ideas to life through code.
+              I'm a Web Developer. I love building websites and bringing ideas
+              to life through code.
             </span>
           </Slide>
         </h1>
+        <div className="w-full p-4 flex flex-row space-x-6">
+          {" "}
+          <a href="mailto:zaharachy72@gmail.com" className="text-left">
+            <FaEnvelope className="text-3xl text-blue-900" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/zahara-rahman-chowdhury-736780253/"
+            target="_blank"
+          >
+            <FaLinkedin className="text-3xl text-blue-900" />
+          </a>
+          <a
+            className="text-3xl text-blue-900"
+            href="https://github.com/zahara-Rahmanchy"
+            target="_blank"
+          >
+            <FaGithub />
+          </a>
+        </div>
       </div>
       <div className="md:col-span-1 col-span-2 md:order-2 order-1 flex justify-center items-center mt-14">
         <Player

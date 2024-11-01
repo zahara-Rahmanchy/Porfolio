@@ -1,9 +1,30 @@
-import React from "react";
+import {useEffect} from "react";
+import {useState} from "react";
 import {Link} from "react-scroll";
-
+// bg-[#fffcef]
 const Header = () => {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
-    <div className="navbar bg-[#fffcef] fixed w-full z-10">
+    <div
+      className={`navbar fixed w-full z-10 transition-all duration-300 ${
+        scrolled ? "bg-[#fcf8f5]" : "bg-transparent"
+      }`}
+    >
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -26,12 +47,12 @@ const Header = () => {
             tabIndex={0}
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
-            <li className="hover:text-[#3d60b7]">
+            <li className="hover:text-[#3d60b7]  text-blue-900">
               <Link
                 to="home"
                 smooth={true}
                 duration={500}
-                className="hover:text-[#3d60b7]"
+                className="hover:text-[#3d60b7] text-blue-400"
               >
                 Home
               </Link>
@@ -72,7 +93,7 @@ const Header = () => {
               to="home"
               smooth={true}
               duration={500}
-              className="hover:text-[#3d60b7] hover:font-semibold hover:bg-transparent"
+              className="text-blue-900 font-semibold hover:text-[#3d60b7] hover:font-bold hover:bg-transparent"
             >
               Home
             </Link>
@@ -83,7 +104,7 @@ const Header = () => {
               to="about"
               smooth={true}
               duration={500}
-              className="hover:text-[#3d60b7] hover:font-semibold hover:bg-transparent"
+              className="text-blue-900 font-semibold hover:text-[#3d60b7] hover:font-semibold hover:bg-transparent"
             >
               About
             </Link>
@@ -93,7 +114,7 @@ const Header = () => {
               to="education"
               smooth={true}
               duration={500}
-              className="hover:text-[#3d60b7] hover:font-semibold hover:bg-transparent"
+              className="text-blue-900 font-semibold hover:text-[#3d60b7] hover:font-bold hover:bg-transparent"
             >
               Education
             </Link>
@@ -103,7 +124,7 @@ const Header = () => {
               to="skills"
               smooth={true}
               duration={500}
-              className="hover:text-[#3d60b7] hover:font-semibold hover:bg-transparent"
+              className="text-blue-900 font-semibold hover:text-[#3d60b7] hover:font-bold hover:bg-transparent"
             >
               Skills
             </Link>
@@ -113,7 +134,7 @@ const Header = () => {
               to="projects"
               smooth={true}
               duration={500}
-              className="hover:text-[#3d60b7] hover:font-semibold hover:bg-transparent"
+              className="hover:text-[#3d60b7] hover:font-bold text-blue-900 font-semibold hover:bg-transparent"
             >
               Projects
             </Link>
@@ -123,7 +144,7 @@ const Header = () => {
               to="contact"
               smooth={true}
               duration={500}
-              className="hover:text-[#3d60b7] hover:font-semibold hover:bg-transparent"
+              className="hover:text-[#3d60b7] hover:font-bold text-blue-900 font-semibold hover:bg-transparent"
             >
               Contact
             </Link>
@@ -132,13 +153,13 @@ const Header = () => {
       </div>
       <div className="navbar-end">
         <a
-          href="MyResume.pdf"
+          href="ZaharaRahman(Frontend Developer Resume).pdf"
           className="btn bg-gradient-to-r from-[#6285de] to-[#6DA3D7] text-red-50"
-          download="Example-PDF-document"
+          // download="ZaharaRahmanResume"
           target="_blank"
           rel="noreferrer"
         >
-          Download Resume
+          Resume
         </a>
       </div>
     </div>

@@ -1,4 +1,5 @@
-import React from "react";
+/* eslint-disable no-mixed-spaces-and-tabs */
+/* eslint-disable no-unused-vars */
 import {Element} from "react-scroll";
 import Header from "./components/Header";
 
@@ -9,11 +10,13 @@ import Contact from "./components/Contact";
 import About from "./components/about";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
-
+import "./index.css";
+import Particles from "react-particles";
+// className="bg-[#fffcef]"
 function App() {
   return (
     <>
-      <div className="bg-[#fffcef]">
+      <div className=" h-max bg-conic-gradient-animation">
         <Header />
 
         <Element name="home">
@@ -23,9 +26,9 @@ function App() {
           <About />
         </Element>
 
-        {/* <Element name="education">
+        <Element name="education">
           <Education />
-        </Element> */}
+        </Element>
 
         <Element name="skills">
           <Skills />

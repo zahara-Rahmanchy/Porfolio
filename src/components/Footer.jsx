@@ -5,7 +5,8 @@ import {FaGithub, FaLinkedin} from "react-icons/fa";
 const Footer = () => {
   return (
     <div>
-      <footer className="footer p-5 flex flex-col justify-center items-center bottom-0  bg-[#faf6e0] mt-20 ">
+      <hr className=" border-purple-300" />
+      <footer className="footer p-5 flex flex-col justify-center items-center bottom-0    mt-20 ">
         <Slide direction="up">
           {" "}
           <a className="btn btn-ghost font-bold md:text-3xl text-[#3F64BA] text-2xl">
