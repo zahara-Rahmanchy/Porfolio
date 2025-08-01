@@ -10,7 +10,7 @@ export const projectData = [
     github_client: "https://github.com/zahara-Rahmanchy/HelpMates-frontend",
     github_server:
       "https://github.com/zahara-Rahmanchy/HelpMates-volunteer-Backend",
-    websiteLink: "https://help-mates-frontend-1fiy.vercel.app",
+    website_link: "https://help-mates-frontend-1fiy.vercel.app/",
     technologies: [
       "Next js",
       "React",
@@ -28,7 +28,7 @@ export const projectData = [
     title: "Craftopia",
     type: "A Mern Stack Application",
     description:
-      "Craftopia is a web application built using React JS, TailwindCSS,Express JS and various technologies. It offers a range offeatures for students, instructors, and administrators. Thehome page showcases popular classes, instructors, and campschedules. Dashboards are available for each user type.Students can select classes, instructors can manage theirclasses, and admins handle user management and classapprovals. Payment is facilitated through Stripe. Userauthentication is implemented using JWT tokens and Firebase.MongoDB serves as the database. Craftopia integrates variouspackages for enhanced functionality. Firebase and Vercel areused for hosting and deployment.",
+      "Craftopia is a web application built using React JS, Tailwind CSS,Express JS and various technologies. It offers a range offeatures for students, instructors, and administrators. The home page showcases popular classes, instructors, and campschedules. Dashboards are available for each user type.Students can select classes, instructors can manage their classes, and admins handle user management and class approvals. Payment is facilitated through Stripe. User authentication is implemented using JWT tokens and Firebase.MongoDB serves as the database. Craftopia integrates various packages for enhanced functionality. Firebase and Vercel areused for hosting and deployment.",
     image: ["/craftopia.png"],
     github_client:
       "https://github.com/zahara-Rahmanchy/Craftopia-Summer-Camp-client-",
@@ -37,39 +37,65 @@ export const projectData = [
     website_link: "https://craftopia-d6da7.web.app/",
     technologies: [
       "React",
-      "Tailwind",
+      "Tailwind CSS",
+      "Daisy UI",
       "Express",
       "MongoDB",
       "Stripe",
       "Firebase",
+      "JWT",
       "Vercel",
     ],
   },
   {
-    title: "PawFectMatch",
-    type: "A Next.js FullStack Application",
+    title: "Furniture Hub",
+    type: "A Mern Stack Application",
     description:
-      "PawFectMatch is a pet adoption web application that connects users with pets up for adoption. It allows users to register, submit adoption requests, and manage their profiles. Admins can manage pet details, update adoption requests, and view adopted pets. The app uses JWT for secure authentication and offers an easy-to-use platform for a seamless adoption experience.",
+      "Sellers can list, update, and manage furniture, track sales, and offer polishing services, while buyers can browse, filter, add to cart, and place orders.JWT for secure authentication and role-based access control and access of specifc features",
+    image: ["/Furniture1.png", "/Furniture3.png", "/Furniture2.png"],
+    github_client:
+      "https://github.com/zahara-Rahmanchy/FurnitureMarketplace-Client",
+    github_server:
+      "https://github.com/zahara-Rahmanchy/Furniture-marketplace-server.git",
+    website_link: "https://furniture-marketplace-client.vercel.app",
     technologies: [
-      "Next.js",
-      "Material UI",
-      "Node.js",
-      "Express.js",
-      "PostgresSQL",
-      "Prisma",
+      "TypeScript",
+      "React",
+      "Redux",
+      "Tailwind CSS",
+      "Material-Tailwind",
+      "Express Js",
+      "MongoDB",
+      "Mongoose",
       "JWT",
-    ],
-    github_client: "https://github.com/zahara-Rahmanchy/Adoption",
-    github_server: "https://github.com/zahara-Rahmanchy/Adoption-server.git",
-    website_link: "https://adoption-three.vercel.app",
-    image: [
-      "/Adoption.png",
-      "/adoptionDashboardAdminManagePet.png",
-      "/adoptionDashboardAdminAddPet.png",
-      "/adoptionDashboardAdminUsers.png",
-      "/adoptionRequests.png",
+      "Vercel",
     ],
   },
+  // {
+  //   title: "PawFectMatch",
+  //   type: "A Next.js FullStack Application",
+  //   description:
+  //     "PawFectMatch is a pet adoption web application that connects users with pets up for adoption. It allows users to register, submit adoption requests, and manage their profiles. Admins can manage pet details, update adoption requests, and view adopted pets. The app uses JWT for secure authentication and offers an easy-to-use platform for a seamless adoption experience.",
+  //   technologies: [
+  //     "Next.js",
+  //     "Material UI",
+  //     "Node.js",
+  //     "Express.js",
+  //     "PostgresSQL",
+  //     "Prisma",
+  //     "JWT",
+  //   ],
+  //   github_client: "https://github.com/zahara-Rahmanchy/Adoption",
+  //   github_server: "https://github.com/zahara-Rahmanchy/Adoption-server.git",
+  //   website_link: "https://adoption-three.vercel.app",
+  //   image: [
+  //     "/Adoption.png",
+  //     "/adoptionDashboardAdminManagePet.png",
+  //     "/adoptionDashboardAdminAddPet.png",
+  //     "/adoptionDashboardAdminUsers.png",
+  //     "/adoptionRequests.png",
+  //   ],
+  // },
   {
     title: "Funfinity",
     type: "A Mern Stack Application",
@@ -93,11 +119,33 @@ export const projectData = [
       "Express.js",
       "MongoDB",
       "Firebase",
+      "Daisy UI",
     ],
     github_client: "https://github.com/zahara-Rahmanchy/Funfinity-client-",
     github_server: "https://github.com/zahara-Rahmanchy/Funfinity-server",
     website_link: "https://funfinity-toys.web.app/",
     image: ["/funfinity.png"],
+  },
+  {
+    title: "AI Story Generator",
+    type: "Mern Stack Application",
+    github_client:
+      "https://github.com/zahara-Rahmanchy/StoryGenerator/tree/main/ShortStories-frontend",
+    github_server:
+      "https://github.com/zahara-Rahmanchy/StoryGenerator/tree/main/shortStoriesBackend",
+    website_link: "https://generateshortstories.netlify.app/",
+    description:
+      "The AI Story Generator is an innovative platform that allows users to create unique stories with ease. With a simple sign-up process, users can access the full range of features, including generating stories based on custom prompts, sharing their creations with a wider audience, and exploring stories shared by others. Interactive features, such as upvoting and saving stories, allow users to engage deeply with content, while a dynamic leaderboard showcases top-voted stories for added recognition. Whether you're a writer or a reader, the AI Story Generator offers a seamless and enjoyable storytelling experience.",
+    technologies: [
+      "React JS",
+
+      "Express JS",
+      "Firebase Authentication",
+      "MongoDB",
+
+      "Cohere API for prompt generation",
+    ],
+    image: ["/generateshortstories1.png", "/generateshortstories2.png"],
   },
 
   {
@@ -107,7 +155,7 @@ export const projectData = [
       "Flavour Adventure is a food-focused MERN stack application showcasing profiles of top chefs and their dishes. The site includes Firebase authentication and exclusive access to detailed chef profiles for logged-in users. It features a sleek and engaging design and introduces each chef's top recipes, creating a delightful browsing experience for food enthusiasts.",
     technologies: [
       "React.js",
-      "Tailwind CSS",
+      "Bootstrap",
       "Express.js",
       "MongoDB",
       "Firebase",
@@ -125,8 +173,8 @@ export const projectData = [
     description:
       " The weather website is a responsive platform that provides real-time weather information for various locations worldwide. Built using raw HTML, CSS, and JavaScript, it features an intuitive interface that allows users to search for cities and access essential weather data, such as temperature, humidity, and wind speed. The clean design ensures easy navigation, while dynamic backgrounds change based on current weather conditions, enhancing the overall user experience.",
     technologies: ["HTML", "CSS", "JavaScript", "OpenWeather API"],
-    github_client: "https://github.com/zahara-Rahmanchy/weather-app",
-    website_link: "https://weather-app-live-example.netlify.app",
+    github_client: "https://github.com/zahara-Rahmanchy/WeatherApp",
+    website_link: "https://weatherappsite123.netlify.app",
     image: ["/weatherApp.png"],
   },
   {

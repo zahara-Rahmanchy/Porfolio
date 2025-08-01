@@ -1,4 +1,4 @@
-import React, {useRef} from "react";
+import {useRef} from "react";
 import {Player} from "@lottiefiles/react-lottie-player";
 import animation2 from "./../assets/124168-blue-mailbox.json";
 import emailjs from "@emailjs/browser";

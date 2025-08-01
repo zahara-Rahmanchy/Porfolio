@@ -1,0 +1,16 @@
+Dear Hiring Team,
+
+I am writing to apply for the Full-Stack Developer position at VELZI AI. With a strong background in full-stack development, hands-on experience in both academic and real-world projects, and a growing passion for AI-driven solutions, I’m excited about your mission to automate financial systems and redefine modern finance.
+
+Over the past two years, I’ve built multiple full-stack web applications, both as personal projects and during my internship as a frontend developer. In these roles, I worked on UI development, API integration, user authentication, and often extended into backend tasks to understand and contribute to the full product flow.
+
+Additionally, I developed Helpmates, a volunteering platform where I handled the entire tech stack, from frontend UI with Next.js, Redux Toolkit, and Material UI, to backend logic using Express.js, Prisma, and PostgreSQL. This project strengthened my skills in Prisma schema design, RESTful API development, and full-stack deployment. As a part of my undergraduate thesis, I also worked on a diabetes prediction model built using Python and Scikit-learn.
+
+VELZI AI’s focus on automation, AI, and financial systems strongly resonates with my interests. I’m particularly drawn to the opportunity to work with cutting-edge technologies like LLMs and AI workflows, and contribute to building efficient, scalable fintech products.
+
+Thank you for considering my application. I’d be grateful to bring my skills, curiosity, and collaborative mindset to your team and would love the opportunity to contribute to your mission.
+
+Warm regards,
+Zahara Rahman Chowdhury
+Email:zaharachy72@gmail.com
+Mobile: 01726659028

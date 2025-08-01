@@ -10,6 +10,7 @@ import macb from "../assets/macbook.png";
 import projectData from "../assets/projectData";
 import LeftImageRightText from "./LeftImageRightText";
 import RightImageLeftText from "./RightImageLeftText";
+import TabsContainer from "./TabsContainer";
 const Projects = () => {
   return (
     <div className="max-w-7xl mx-auto p-3 rounded-lg  my-14">
@@ -24,7 +25,8 @@ const Projects = () => {
         </Slide>
       </h1>
       <section className="mt-20">
-        {projectData.map((item, index) =>
+        <TabsContainer />
+        {/* {projectData.map((item, index) =>
           index % 2 === 0 ? (
             <>
               <LeftImageRightText
@@ -50,7 +52,7 @@ const Projects = () => {
               />
             </>
           )
-        )}
+        )} */}
       </section>
     </div>
   );

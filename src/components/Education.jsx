@@ -29,7 +29,7 @@ const Education = () => {
             color: "#3F64BA",
           }}
           contentArrowStyle={{borderRight: "7px solid  rgb(33, 150, 243)"}}
-          date="2019 - present"
+          date="2019 - 2023"
           iconStyle={{background: "#fc9585", color: "#fff"}}
           icon={<FaGraduationCap />}
         >

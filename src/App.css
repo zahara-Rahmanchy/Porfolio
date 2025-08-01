@@ -1,0 +1,35 @@
+.mySwiper {
+  position: relative;
+  width: 100%;
+  max-height: 400px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: black;
+  width: 30px;
+  height: 5px;
+  font-size: "10px";
+}
+/* Change hover color for navigation buttons */
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: blue; /* Change to your desired hover color */
+}
+
+/* Custom styles for pagination */
+.swiper-pagination-bullet {
+  background-color: blue;
+  font-size: "20px";
+}
+
+.swiper-pagination-bullet-active {
+  background: blue;
+}
+
+@media (max-width: 480px) {
+  .mySwiper {
+    max-width: 300px;
+    max-height: 300px;
+  }
+}

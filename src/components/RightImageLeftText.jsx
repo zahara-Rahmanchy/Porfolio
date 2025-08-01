@@ -15,7 +15,7 @@ const RightImageLeftText = ({
   website,
 }) => {
   return (
-    <div className="bg-transparent shadow-2xl shadow-cyan-800 my-20 rounded-lg">
+    <div className="bg-transparent pb-24 shadow-2xl shadow-cyan-800 my-20 rounded-lg">
       <div className="p-7">
         {" "}
         <h2 className="card-title text-4xl text-blue-900 font-semibold ">
@@ -30,23 +30,7 @@ const RightImageLeftText = ({
             {" "}
             <div className="card">
               <div className="card-actions justify-left shadow-lg p-6 w-full">
-                <p>
-                  {/* Funfinity is a vibrant toy selling website that utilizes
-                  React.js, Tailwind CSS, and Express.js. It offers a diverse
-                  selection of toys for children, presented in an appealing and
-                  interactive manner. Users can explore the website&apos;`s home
-                  page, which features a captivating banner, an enticing toy
-                  gallery, and informative sections. The "All Toys" page allows
-                  users to browse and search for toys, with sorting options
-                  available. Registered users can add new toys, manage their
-                  inventory, and update or delete existing toy listings.
-                  Funfinity incorporates Firebase authentication for seamless
-                  login and signup functionality, ensuring secure access to user
-                  accounts. With its attractive design and user-friendly
-                  features, Funfinity provides an enjoyable and seamless
-                  shopping experience for toy enthusiasts of all ages. */}
-                  {description}
-                </p>
+                <p>{description}</p>
                 <div className="p-4 flex md:flex-row flex-col justify-between space-y-2 md:space-y-0">
                   <div className="flex">
                     <BsGithub className="text-3xl" />{" "}
@@ -88,16 +72,16 @@ const RightImageLeftText = ({
         <div className="lg:col-span-2 col-span-3   place-self-center  md:mt-5 lg:mt-0 order-1 lg-order-2 bg-transparent">
           <div className=" bg-none w-full h-full  flex justify-center items-center">
             <div className="card lg:card-side bg-base-100 shadow-xl max-w-2xl">
-              <div className="relative max-w-2xl bg-transparent  max-h-[450px] overflow-hidden rounded-lg border-t-4 border-s-4 border-e-4 border-b-4 border-[#dee5f6]">
-                {/* <div className="h-max w-full transition-transform duration-[5000ms] ease-linear transform translate-y-0 hover:-translate-y-[calc(100%-18rem)] rounded-lg">
+              {/* <div className="relative max-w-2xl bg-transparent  max-h-[450px] overflow-hidden rounded-lg border-t-4 border-s-4 border-e-4 border-b-4 border-[#dee5f6]"> */}
+              {/* <div className="h-max w-full transition-transform duration-[5000ms] ease-linear transform translate-y-0 hover:-translate-y-[calc(100%-18rem)] rounded-lg">
                   <img
                     src={img}
                     alt=""
                     className="w-full object-cover object-top rounded-lg"
                   />
                 </div> */}
-                <CarousalComponent images={img} />
-              </div>
+              <CarousalComponent images={img} />
+              {/* </div> */}
             </div>
           </div>
         </div>

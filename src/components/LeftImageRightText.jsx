@@ -17,7 +17,7 @@ const LeftImageRightText = ({
   return (
     <>
       {" "}
-      <div className="grid grid-cols-3 p-8 mb-20 bg-opacity-90 shadow-2xl shadow-cyan-800">
+      <div className="grid grid-cols-3 p-8 pb-24 mb-20 bg-opacity-90 shadow-2xl shadow-cyan-800 sm:gap-4 lg:gap-0">
         <div className="lg:col-span-2 col-span-3 align-middle place-self-center w-full">
           <h2 className="card-title text-4xl text-blue-900 font-semibold">
             {title}
@@ -25,16 +25,14 @@ const LeftImageRightText = ({
           <p className="text-[#ea625b] mb-6 mt-3">{type}</p>
           <div className=" bg-none w-full h-full  flex justify-center items-center">
             <div className="card lg:card-side bg-base-100 shadow-xl max-w-2xl ">
-              {/* <div className="h-max w-full transition-transform duration-[5000ms] ease-linear transform translate-y-0 hover:-translate-y-[calc(100%-18rem)] rounded-lg">
-                  <img
-                    src={img}
-                    alt="A Summer Camp Website"
-                    border="0"
-                    className="w-full object-cover object-top rounded-lg"
-                  ></img>
-                </div> */}
-              <CarousalComponent images={img} />
-              {/* </div> */}
+              {/* <div className="h-max w-full transition-transform duration-[5000ms] ease-linear transform translate-y-0 hover:-translate-y-[calc(100%-18rem)] rounded-lg"> */}
+              <CarousalComponent images={img} />{" "}
+              {/* <img
+                  src={img[0]}
+                  alt="A Summer Camp Website"
+                  border="0"
+                  className="w-full object-cover object-top rounded-lg"
+                ></img> */}
             </div>
           </div>
         </div>

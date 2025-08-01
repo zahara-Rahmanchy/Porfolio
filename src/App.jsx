@@ -12,6 +12,8 @@ import Home from "./components/Home";
 import Footer from "./components/Footer";
 import "./index.css";
 import Particles from "react-particles";
+import Publication from "./components/Publication";
+import Experience from "./components/Experience";
 // className="bg-[#fffcef]"
 function App() {
   return (
@@ -26,18 +28,22 @@ function App() {
           <About />
         </Element>
 
-        <Element name="education">
-          <Education />
-        </Element>
-
         <Element name="skills">
           <Skills />
+        </Element>
+        <Element name="experience">
+          <Experience />
         </Element>
 
         <Element name="projects">
           <Projects />
         </Element>
-
+        <Element name="education">
+          <Education />
+        </Element>
+        <Element name="publication">
+          <Publication />
+        </Element>
         <Element name="contact">
           <Contact />
         </Element>

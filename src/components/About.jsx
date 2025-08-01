@@ -20,17 +20,18 @@ const about = () => {
           <p className="p-2 text-blue-900 my-3 text-[17px] max-w-5xl mx-auto ">
             I'm a passionate web developer and Computer Science and Engineering
             student with a knack for building interactive and engaging websites.
-            With a strong background in HTML, CSS, and JavaScript, I have the
-            expertise to create visually appealing and user-friendly web
-            experiences. I focus on crafting seamless web solutions that
+            With a strong background in HTML, CSS, and JavaScript,TypeScript. I
+            have the expertise to create visually appealing and user-friendly
+            web experiences. I focus on crafting seamless web solutions that
             captivate users and provide them with a smooth and intuitive
             browsing experience. I have experience working with frameworks like
-            React.js and have dabbled in backend technologies like Express.js,
-            Firebase, and MongoDB. As a lifelong learner, I actively explore new
-            ideas and technologies, constantly seeking to expand my knowledge
-            and improve my craft. With a commitment to delivering exceptional
-            web experiences, my goal is to create innovative and engaging
-            websites that leave a lasting impact on users
+            React.js, Next.js and have dabbled in backend technologies like
+            Express.js, Firebase, MongoDB, Mongoose, PostgreSQL and Prisma. As a
+            lifelong learner, I actively explore new ideas and technologies,
+            constantly seeking to expand my knowledge and improve my craft. With
+            a commitment to delivering exceptional web experiences, my goal is
+            to create innovative and engaging websites that leave a lasting
+            impact on users.
           </p>
         </Fade>
       </div>

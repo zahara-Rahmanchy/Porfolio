@@ -78,6 +78,11 @@ const Header = () => {
                 Projects
               </Link>
             </li>
+             <li>
+              <Link to="publication" smooth={true} duration={500}>
+                Publication
+              </Link>
+            </li>
             <li>
               <Link to="contact" smooth={true} duration={500}>
                 Contact
@@ -129,6 +134,16 @@ const Header = () => {
               Skills
             </Link>
           </li>
+            <li>
+            <Link
+              to="experience"
+              smooth={true}
+              duration={500}
+              className="text-blue-900 font-semibold hover:text-[#3d60b7] hover:font-bold hover:bg-transparent"
+            >
+              Experience
+            </Link>
+          </li>
           <li>
             <Link
               to="projects"
@@ -137,6 +152,16 @@ const Header = () => {
               className="hover:text-[#3d60b7] hover:font-bold text-blue-900 font-semibold hover:bg-transparent"
             >
               Projects
+            </Link>
+          </li>
+            <li>
+            <Link
+              to="publication"
+              smooth={true}
+              duration={500}
+              className="hover:text-[#3d60b7] hover:font-bold text-blue-900 font-semibold hover:bg-transparent"
+            >
+             Publication
             </Link>
           </li>
           <li>
@@ -153,7 +178,7 @@ const Header = () => {
       </div>
       <div className="navbar-end">
         <a
-          href="ZaharaRahman(Frontend Developer Resume).pdf"
+          href="ZaharaRahman_SoftwareEngineer_resume.pdf"
           className="btn bg-gradient-to-r from-[#6285de] to-[#6DA3D7] text-red-50"
           // download="ZaharaRahmanResume"
           target="_blank"
